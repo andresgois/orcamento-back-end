@@ -1,0 +1,18 @@
+{
+  "name": "BackOrcamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/Server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "mysql2": "^2.2.5",
+    "sucrase": "^3.17.0",
+    "yup": "^0.32.8"
+  }
+}
